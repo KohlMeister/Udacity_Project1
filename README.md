@@ -15,8 +15,10 @@ To get started, download the provided files within the repo.
 
 ### Creating the Webpage
 
-Running entertainment_center.py will generate the webpage and .html file. Once entertainment_center.py has been run, click on a
-poster to see the trailer played.
+* Download all files into common directory.
+* Open entertainment_center.py in Python IDLE.
+* Run the entertainment_center.py module.
+* Once webpage has loaded, click on movie posters to watch the movie trailer.
 
 ```
 Be aware - If the .html file defaults to open in another program than an internet browser, the .html file that gets created by entertainment_center.py
