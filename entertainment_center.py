@@ -1,4 +1,4 @@
-# Import necessary files
+# Import media file and fresh_tomatoes file
 import media
 import fresh_tomatoes
 
@@ -33,7 +33,7 @@ kundo = media.Movie("Kundo",
                     "A medieval western style action movie.",
                     "https://static1.tribute.ca/poster/540x800/kundo-5724.jpg",
                     "https://www.youtube.com/watch?v=NKq34E4y36o")
-# Store movie information in a list
+# Store movie information in a list to be used in fresh_tomatoes
 movies = [the_foreigner, hot_fuzz, kundo, jackass, toy_story, avatar]
-# Pass movie information into Web page
+# Pass movie information into Webpage class that generates the .html file
 fresh_tomatoes.open_movies_page(movies)

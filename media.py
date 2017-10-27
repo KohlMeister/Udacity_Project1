@@ -1,8 +1,8 @@
-# Import necessary files
+# Import webbrowser
 import webbrowser
 
 
-# Creation of movie class
+# Creation of movie class to story individual movie information.
 class Movie():
     """ This class stores movie information. It takes no arguments. """
 
